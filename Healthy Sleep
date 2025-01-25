@@ -1,0 +1,18 @@
+//Healthy Sleep
+//https://www.codechef.com/problems/HEALSE
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int H;
+	cin >> H;
+	
+	if( H > 8) cout << "MORE" <<endl;
+	else if( H < 8) cout << "LESS" <<endl;
+	else cout << "PERFECT" <<endl;
+	
+	return 0;
+
+}
+
