@@ -1,0 +1,16 @@
+//Advitiya
+//https://www.codechef.com/problems/ADVITIYA1
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int X;
+	cin >> X;
+	
+	if( X == 16 || X == 17 || X == 18) cout << "ADVITIYA" <<endl;
+	else cout << "WAITING FOR ADVITIYA" <<endl;
+	
+	return 0;
+
+}
