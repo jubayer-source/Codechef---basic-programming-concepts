@@ -1,0 +1,16 @@
+//Sports Section
+https://www.codechef.com/problems/NEWSPAPER
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int X;
+	cin >> X;
+	
+	if(X == 8 || X == 9 || X == 10) cout << "YES" <<endl;
+	else cout << "NO" <<endl;
+	
+	return 0;
+
+}
