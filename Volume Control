@@ -1,0 +1,21 @@
+//Volume Control
+//https://www.codechef.com/problems/VOLCONTROL
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int T;
+	cin >> T;
+	
+	while(T--){
+	    int X, Y;
+	    cin >> X >> Y;
+	    
+	    int buttonPressed = X - Y;
+	    
+	    cout << abs(buttonPressed) <<endl;
+	}
+return 0;
+}
